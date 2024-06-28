@@ -7,7 +7,7 @@ COPY . .
 # build application
 RUN npx tsc
 
-# node alpine is ligher version of node
+# node alpine is lighter version of node
 FROM node:alpine
 WORKDIR /app
 # copy build application
